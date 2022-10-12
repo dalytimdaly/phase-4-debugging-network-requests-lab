@@ -63,11 +63,14 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  console logged response from server and then looked at the server method for creating an item. saw that it was not invoking an instance of the Toys class, but the class itself.
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  console logged response from server and then looked at the server method for updating the item. saw it was not returning json.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  before trying this, i looked at the routes file and saw that it did not include a delete route, despite having front end code for a delete function.
