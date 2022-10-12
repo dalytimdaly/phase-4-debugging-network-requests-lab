@@ -74,3 +74,5 @@ developing your own process.
 
   - How I debugged:
   before trying this, i looked at the routes file and saw that it did not include a delete route, despite having front end code for a delete function.
+
+  i was sad that creating the proxy, editing the script start and setting up a procfile were already done for us.
